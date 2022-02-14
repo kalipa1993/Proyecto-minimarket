@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Minimarket- El Roble</title>
+		<link rel="stylesheet" href="../styles/style.css" />
+		<script
+			src="https://kit.fontawesome.com/3cd4d2661f.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="contenedor">
+			<header>
+				<h1 class="logo">
+					<img src="../imagenes-productos/minimarket.png" alt="" />
+				</h1>
+			</header>
+			<nav>
+				<ul class="nav-bar">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="ofertas.html">Ofertas</a></li>
+					<li><a href="contactos.html">Contactos</a></li>
+					<li><a href="vestuario.html">Moda</a></li>
+					<li><a href="categorias.html">Categorías</a></li>
+				</ul>
+			</nav>
+			<section class="contenido-formulario">
+				<form action="">
+					<fieldset class="form">
+						<p>
+							<label
+								>Nombre Completo: <input type="text" name="nombrecompleto"
+							/></label>
+						</p>
+						<p>
+							Género:
+							<label
+								><input type="radio" name="genero" value="masculino" />
+								Masculino</label
+							>
+							<label
+								><input type="radio" name="genero" value="femenino" />
+								Femenino</label
+							>
+						</p>
+						<p>
+							<label>Dirección: <input type="text" name="direccion" /></label>
+						</p>
+						<p>
+							<label
+								>Número de Contacto: <input type="text" name="numerodecontacto"
+							/></label>
+						</p>
+						<p>
+							Motivo de Contacto:
+							<label><input type="checkbox" name="ayuda" /> Ayuda</label>
+							<label><input type="checkbox" name="reclamos" /> Reclamos</label>
+							<label
+								><input type="checkbox" name="relizar-pedido" /> Realizar
+								Pedido</label
+							>
+							<label
+								><input type="checkbox" name="hacer una cotizacion" />Hacer una
+								Cotización</label
+							>
+						</p>
+						<textarea
+							name="comentarios"
+							id="comentarios"
+							cols="30"
+							rows="10"
+							placeholder="deja tu comentario"
+						></textarea>
+
+						<p>
+							<input type="submit" value="Enviar datos" />
+							<input type="reset" value="Restaurar formulario" />
+						</p>
+					</fieldset>
+				</form>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.82201673867!2d-70.85070428504702!3d-33.45394328077294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662e9983060a55b%3A0xcaae610f279d383!2sValle%20del%20Sol%2C%20Pudahuel%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1644716334486!5m2!1ses-419!2scl"
+					width="600"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+				></iframe>
+			</section>
+
+			<footer>
+				<button class="redes">Facebook</button>
+				<button class="redes">Instagram</button>
+				<button class="redes">Twitter</button>
+			</footer>
+		</div>
+	</body>
+</html>

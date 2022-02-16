@@ -97,7 +97,7 @@ section {
 }
 .form {
 	font-family: cursive;
-	color: blue;
+	color:red;
 	background-color: black;
 }
 article {
@@ -154,6 +154,18 @@ footer {
 	border: none;
 	border-radius: 5px;
 	color: white;
+}
+
+
+
+	
+.boton-form:hover {
+	color: blue;
+	background-color: yellow;
+	
+}
+.boton-form {
+	font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {

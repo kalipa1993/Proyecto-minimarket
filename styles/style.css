@@ -156,9 +156,14 @@ footer {
 	color: white;
 }
 
+.copyright {
+	display: flex;
+	justify-content: right;
+}
 
-
-	
+.webpay {
+	width: 20%;
+}	
 .boton-form:hover {
 	color: blue;
 	background-color: yellow;
@@ -167,6 +172,14 @@ footer {
 .boton-form {
 	font-weight: bold;
 }
+.copy {
+	display: flex;
+	justify-content: center;
+	color: red;
+	font-weight: bolder;
+	
+}
+
 
 @media screen and (max-width: 768px) {
 	.logo img {

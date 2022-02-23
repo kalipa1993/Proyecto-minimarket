@@ -126,10 +126,11 @@ img {
 	padding: 10px;
 }
 
-.item-ofertas {
-	align-self: flex-start;
-	height: 200px;
+span {
+  background-color: yellow;
+  font-size: 33px;
 }
+
 
 /*Footer*/
 
@@ -140,6 +141,7 @@ footer {
 	padding: 20px;
 	background-color: gray;
 }
+/*
 .rs {
 	grid-area: rs;
 	display: flex;
@@ -178,6 +180,12 @@ footer {
 	color: red;
 	font-weight: bolder;
 	
+}
+*/
+
+.copi {
+	color:red;
+	font-weight: bold;
 }
 
 
